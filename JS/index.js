@@ -408,53 +408,53 @@ function crearEvento(){
         selecciones.push(seleccion);
     }
     // GRUPO A
-    selecciones[0].partidos = ["20 de Noviembre - 13:00 hs frente Ecuador","25 de Noviembre - 10:00 hs frente Senegal","29 de Noviembre frente Holanda"];
-    selecciones[1].partidos = ["20 de Noviembre - 13:00 hs frente Qatar","29 de Noviembre -12:00 hs frente Senegal", "25 de Noviembre 13:00 hs frente Holanda"];
-    selecciones[2].partidos = ["21 de Noviembre -13:00 hs frente a Holanda","25 de Noviembre - 10:00 hs frente Qatar","29 de Noviembre -12:00 hs frente Ecuador"];
-    selecciones[3].partidos = ["29 de Noviembre frente Qatar","25 de Noviembre 13:00 hs frente Holanda","21 de Noviembre -13:00 hs frente a Holanda"];
+    selecciones[0].partidos = ["20 de Noviembre - 13:00 hs VS Ecuador","25 de Noviembre - 10:00 hs VS Senegal","29 de Noviembre - 12:00 hs VS Holanda"];
+    selecciones[1].partidos = ["20 de Noviembre - 13:00 hs VS Qatar", "25 de Noviembre - 13:00 hs VS Holanda","29 de Noviembre - 12:00 hs VS Senegal"];
+    selecciones[2].partidos = ["21 de Noviembre - 13:00 hs VS a Holanda","25 de Noviembre - 10:00 hs VS Qatar","29 de Noviembre -12:00 hs VS Ecuador"];
+    selecciones[3].partidos = ["21 de Noviembre -13:00 hs VS a Holanda","25 de Noviembre 13:00 hs VS Holanda","29 de Noviembre - 12:00 hs VS Qatar"];
 
     // GRUPO B
 
-    selecciones[4].partidos = ["21 de Noviembre - 10:00 hs frente Iran", "25 de Noviembre - 16:00 hs frente a Estados Unidos","29 de Novimebre - 16:00 hs frente a Wales"];
-    selecciones[5].partidos = ["21 de Noviembre - 10:00 hs frente Inglaterra","25 de Noviembre - 07:00 hs frente Wales.","29 de Noviembre - 16:00 hs frente Estados Unidos"];
-    selecciones[6].partidos = ["21 de Noviembre - 16:00 hs frente Wales","29 de Noviembre - 16:00 hs frente Iran","25 de Noviembre - 16:00 hs frente a Inglaterra"];
-    selecciones[7].partidos = ["29 de Novimebre - 16:00 hs frente a Inglaterra","25 de Noviembre - 07:00 hs frente Iran","21 de Noviembre - 16:00 hs frente Estados Unidos"];
+    selecciones[4].partidos = ["21 de Noviembre - 10:00 hs VS Iran", "25 de Noviembre - 16:00 hs   VS a Estados Unidos","29 de Novimebre - 16:00 hs   VS a Wales"];
+    selecciones[5].partidos = ["21 de Noviembre - 10:00 hs VS Inglaterra","25 de Noviembre - 07:00 hs   VS Wales.","29 de Noviembre - 16:00 hs   VS Estados Unidos"];
+    selecciones[6].partidos = ["21 de Noviembre - 16:00 hs VS Wales","25 de Noviembre - 16:00 hs   VS a Inglaterra","29 de Noviembre - 16:00 hs   VS Iran"];
+    selecciones[7].partidos = ["21 de Noviembre - 16:00 hs VS Estados Unidos","25 de Noviembre - 07:00 hs   VS Iran","29 de Novimebre - 16:00 hs   VS a Inglaterra"];
 
     // GRUPO C
-    selecciones[8].partidos = ["22 de Noviembre - 07:00 hs frente Arabia Saudita","26 de Noviembre - 16:00 hs frente Mexico","30 de Noviembre - 16:00 hs frente Polonia"];
-    selecciones[9].partidos = ["22 de Noviembre - 07:00 hs frente Argentina","26 de Noviembre - 10:00 hs frente Polonia ","30 de Noviembre - 16:00 hs frente a Mexico"];
-    selecciones[10].partidos = ["26 de Noviembre - 16:00 hs frente Argentina","30 de Noviembre - 16:00 hs frente a Arabia Saudita","22 de Noviembre - 13:00 frente Polonia"];
-    selecciones[11].partidos = ["30 de Noviembre - 16:00 hs frente Argentina","22 de Noviembre - 13:00 frente Mexico","26 de Noviembre - 10:00 hs frente Arabia Saudita"];
+    selecciones[8].partidos = ["22 de Noviembre - 07:00 hs VS Arabia Saudita","26 de Noviembre - 16:00 hs VS Mexico","30 de Noviembre - 16:00 hs VS Polonia"];
+    selecciones[9].partidos = ["22 de Noviembre - 07:00 hs VS Argentina","26 de Noviembre - 10:00 hs VS Polonia ","30 de Noviembre - 16:00 hs VS a Mexico"];
+    selecciones[10].partidos = ["22 de Noviembre - 13:00 VS Polonia","26 de Noviembre - 16:00 hs VS Argentina","30 de Noviembre - 16:00 hs VS a Arabia Saudita"];
+    selecciones[11].partidos = ["22 de Noviembre - 13:00 VS Mexico","26 de Noviembre - 10:00 hs VS Arabia Saudita","30 de Noviembre - 16:00 hs VS Argentina"];
 
     // GRUPO D
-    selecciones[12].partidos = ["26 de Noviembre - 13:00 hs frente Dinamarca","22 de Noviembre - 16:00 hs frente Australia","30 de Noviembre - 12:00 hs frente Tunisia"];
-    selecciones[13].partidos = ["30 de Noviembre - 12:00 hs frente Dinamarca","22 de Noviembre - 16:00 hs frente Francia","26 de Noviembre - 07:00 hs frente Tunisia"];
-    selecciones[14].partidos = ["22 de Noviembre - 10:00 hs frente Tunisia","26 de Noviembre - 13:00 hs frente Francia","30 de Noviembre - 12:00 hs frente Australia"];
-    selecciones[15].partidos = ["30 de Noviembre - 12:00 hs frente Francia", "26 de Noviembre - 07:00 hs frente Australia","22 de Noviembre - 10:00 hs frente Dinamarca"];
+    selecciones[12].partidos = ["22 de Noviembre - 16:00 hs VS Australia","26 de Noviembre - 13:00 hs VS Dinamarca","30 de Noviembre - 12:00 hs VS Tunisia"];
+    selecciones[13].partidos = ["22 de Noviembre - 16:00 hs VS Francia","26 de Noviembre - 07:00 hs VS Tunisia","30 de Noviembre - 12:00 hs VS Dinamarca"];
+    selecciones[14].partidos = ["22 de Noviembre - 10:00 hs VS Tunisia","26 de Noviembre - 13:00 hs VS Francia","30 de Noviembre - 12:00 hs VS Australia"];
+    selecciones[15].partidos = ["22 de Noviembre - 10:00 hs VS Dinamarca", "26 de Noviembre - 07:00 hs VS Australia","30 de Noviembre - 12:00 hs VS Francia"];
     
     // GRUPO E
-    selecciones[16].partidos = ["27 de Noviembre - 16:00 hs frente Alemania","23 de Noviembre - 13:00 hs frente Costa Rica","1 de Diciembre - 16:00 hs frente Japon"];
-    selecciones[17].partidos = ["1 de Diciembre - 16:00 hs frente Alemania","23 de Noviembre - 13:00 hs frente España","27 de Noviembre - 07:00 hs frente Japon"];
-    selecciones[18].partidos = ["23 de Noviembre - 10 hs frente Japon","27 de Noviembre - 16:00 hs frente España","1 de Diciembre - 16:00 hs frente Costa Rica"];
-    selecciones[19].partidos = ["27 de Noviembre - 07:00 hs frente Costa Rica","1 de Diciembre - 16:00 hs frente España","23 de Noviembre - 10 hs frente Alemania"];
+    selecciones[16].partidos = ["23 de Noviembre - 13:00 hs VS Costa Rica","27 de Noviembre - 16:00 hs VS Alemania","1 de Diciembre - 16:00 hs VS Japon"];
+    selecciones[17].partidos = ["23 de Noviembre - 13:00 hs VS España","27 de Noviembre - 07:00 hs VS Japon","1 de Diciembre - 16:00 hs VS Alemania"];
+    selecciones[18].partidos = ["23 de Noviembre - 10 hs VS Japon","27 de Noviembre - 16:00 hs VS España","1 de Diciembre - 16:00 hs VS Costa Rica"];
+    selecciones[19].partidos = ["23 de Noviembre - 10 hs VS Alemania","27 de Noviembre - 07:00 hs VS Costa Rica","1 de Diciembre - 16:00 hs VS España"];
 
     // GRUPO F
-    selecciones[20].partidos = ["23 de Noviembre - 16:00 hs frente Canada","27 de Noviembre - 10:00 hs frente Marruecos","1 de Diciembre - 12:00 hs frente Crocia"];
-    selecciones[21].partidos = ["23 de Noviembre - 16:00 hs frente Belgica","27 de Noviembre - 13:00 hs frente Croacia","1 de Diciembre - 12:00 hs frente Marruecos"];
-    selecciones[22].partidos = ["27 de Noviembre - 10:00 hs frente Belgica","1 de Diciembre - 12:00 hs frente Canada","23 de Noviembre - 07:00 hs frente Croacia"];
-    selecciones[23].partidos = ["1 de Diciembre - 12:00 hs frente Belgica","27 de Noviembre - 13:00 hs frente Canada","23 de Noviembre - 07:00 hs frente Marruecos"]
+    selecciones[20].partidos = ["23 de Noviembre - 16:00 hs VS Canada","27 de Noviembre - 10:00 hs VS Marruecos","1 de Diciembre - 12:00 hs VS Crocia"];
+    selecciones[21].partidos = ["23 de Noviembre - 16:00 hs VS Belgica","27 de Noviembre - 13:00 hs VS Croacia","1 de Diciembre - 12:00 hs VS Marruecos"];
+    selecciones[22].partidos = ["23 de Noviembre - 07:00 hs VS Croacia","27 de Noviembre - 10:00 hs VS Belgica","1 de Diciembre - 12:00 hs VS Canada"];
+    selecciones[23].partidos = ["23 de Noviembre - 07:00 hs VS Marruecos","27 de Noviembre - 13:00 hs VS Canada","1 de Diciembre - 12:00 hs VS Belgica"]
 
     // GRUPO G
-    selecciones[24].partidos = ["24 de Noviembre - 16:00 hs frente Serbia","28 de Noviembre - 13:00 hs frente Suiza","2 de Diciembre - 16:00 hs frente Camerun"];
-    selecciones[25].partidos = ["24 de Noviembre - 16:00 hs frente Brasil","28 de Noviembre - 07:00 hs frente Camerun","2 de Diciembre - 16:00 hs frente Suiza"];
-    selecciones[26].partidos = ["2 de Diciembre - 16:00 hs frente Serbia","28 de Noviembre - 13:00 hs frente Brasil","24 de Noviembre - 07:00 hs frente Camerun"];
-    selecciones[27].partidos = ["24 de Noviembre - 07:00 hs frente Suiza","28 de Noviembre - 07:00 hs frente Serbia","2 de Diciembre - 16:00 hs frente Brasil"];
+    selecciones[24].partidos = ["24 de Noviembre - 16:00 hs VS Serbia","28 de Noviembre - 13:00 hs VS Suiza","2 de Diciembre - 16:00 hs VS Camerun"];
+    selecciones[25].partidos = ["24 de Noviembre - 16:00 hs VS Brasil","28 de Noviembre - 07:00 hs VS Camerun","2 de Diciembre - 16:00 hs VS Suiza"];
+    selecciones[26].partidos = ["24 de Noviembre - 07:00 hs VS Camerun","28 de Noviembre - 13:00 hs VS Brasil","2 de Diciembre - 16:00 hs VS Serbia"];
+    selecciones[27].partidos = ["24 de Noviembre - 07:00 hs VS Suiza","28 de Noviembre - 07:00 hs VS Serbia","2 de Diciembre - 16:00 hs VS Brasil"];
 
     // GRUPO H 
-    selecciones[28].partidos = ["28 de Noviembre - 16:00 hs frente Uruguay","24 de Noviembre - 13:00 hs frente Ghana", "2 de Diciembre - 12:00 hs frente Corea del sur"];
-    selecciones[29].partidos = ["24 de Noviembre - 13:00 hs frente Portugal","2 de Diciembre - 12:00 hs frente Uruguay", "28 de Noviembre - 10:00 hs frente Corea del sur"];
-    selecciones[30].partidos = ["24 de Noviembre - 10:00 hs frente Corea del Sur","28 de Noviembre - 16:00 hs frente Portugal", "2 de Diciembre - 12:00 hs frente Ghana"];
-    selecciones[31].partidos = ["2 de Diciembre - 12:00 hs frente Portugal","28 de Noviembre - 10:00 hs frente Ghana","24 de Noviembre - 10:00 hs frente Uruguay"];
+    selecciones[28].partidos = ["24 de Noviembre - 13:00 hs VS Ghana","28 de Noviembre - 16:00 hs VS Uruguay", "2 de Diciembre - 12:00 hs VS Corea del sur"];
+    selecciones[29].partidos = ["24 de Noviembre - 13:00 hs VS Portugal", "28 de Noviembre - 10:00 hs VS Corea del sur","2 de Diciembre - 12:00 hs VS Uruguay"];
+    selecciones[30].partidos = ["24 de Noviembre - 10:00 hs VS Corea del Sur","28 de Noviembre - 16:00 hs VS Portugal", "2 de Diciembre - 12:00 hs VS Ghana"];
+    selecciones[31].partidos = ["24 de Noviembre - 10:00 hs VS Uruguay","28 de Noviembre - 10:00 hs VS Ghana","2 de Diciembre - 12:00 hs VS Portugal"];
 
     return selecciones;
 }
