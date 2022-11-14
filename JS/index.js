@@ -463,6 +463,7 @@ function busqueda(selecciones){
     let buscar = prompt("Ingrese el pais que desea saber sus partidos.")
     buscar = buscar.toLowerCase();
     let encontrado;
+    let flag = false;
     for (const seleccion of selecciones) {
         if(buscar == seleccion.pais.toLowerCase()){
             let borrar = document.getElementById("contenedor");
@@ -480,9 +481,12 @@ function busqueda(selecciones){
             let simulado = document.getElementById("boton");
             simulado.addEventListener("click",()=>restaurar());
             encontrado = seleccion;
+            flag = true;
         }
     }
-
+    if(!flag){
+        alert("No se encontro ese pais.");
+    }
     for (const partido of encontrado.partidos) {
        let texto = document.createElement("p");
        texto.innerHTML = partido;
