@@ -89,6 +89,10 @@
     else{
         let penal1 = Math.floor(Math.random() * 8);
         let penal2 = Math.floor(Math.random() * 8);
+        while(penal1==penal2){
+            penal1 = Math.floor(Math.random() * 8);
+            penal2 = Math.floor(Math.random() * 8);
+        }
         if (penal1 > penal2){
             pais1.puntos +=3;
         }
