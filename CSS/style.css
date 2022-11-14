@@ -1,0 +1,198 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../imagenes/fondo_qatar.jpeg);
+}
+
+svg{
+  position: fixed;
+  bottom: 0; 
+}
+.contenedor{
+  margin: 10%;
+}
+@font-face {
+  font-family: qatar2022arabic-bold ;
+  src: url(../imagenes/Qatar2022/Qatar2022Arabic-Bold.ttf);
+  font-style: normal;
+  font-weight: normal;
+
+}
+@font-face{
+  font-family: qatar2022arabic-heavy;
+  src: url(../imagenes/Qatar2022/Qatar2022Arabic-Heavy.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+#titulo{
+  font-family: 'qatar2022arabic-bold';
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  display: block;
+  white-space:  nowrap;
+  border-right: 4px solid;
+  width: 23ch;
+  animation: typing 2s steps(12) , blink .5s infinite step-end  alternate ;
+  overflow: hidden;
+}
+.contenedor__botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  background-color: #50B8A8;
+  font-family: 'qatar2022arabic-heavy';
+  font-size: 17px;
+  width: 220px;
+  height: 50px;
+  margin: 6% 7%;
+  text-decoration: none;
+  padding: 10px;
+  color: #000000;
+  border-radius: 6px;
+  border: none;
+  
+}
+
+input:hover{
+  background-color: #87FFED;
+  transform: scale(1.3);
+  color: #000000;
+  font-weight: bold;
+  transition: 1s;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.container-nav{
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.container-nav-ul{
+  text-align: center;
+}
+.container-nav-ul li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.container-nav-ul:hover a{
+  filter: blur(2px);
+}
+
+.container-nav-ul li a:hover{
+  transform: translateY(21px) scale(1.05);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0,.4);
+  filter: none;
+
+}
+.container-nav-ul li .facebook:hover{
+  background-color: #50B8A8 ;
+}
+.container-nav-ul li .twitter:hover{
+  background-color: #50B8A8 ;
+}
+.container-nav-ul li .instagram:hover{
+  background-color: #50B8A8 ;
+}
+.container-nav-ul li .whatsapp:hover{
+  background-color: #50B8A8 ;
+}
+.container-nav-ul li a{
+  display: block;
+  padding: 0 10px;
+  background-color: transparent;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0,.2);
+  transition: .4s;
+  text-decoration: none;
+}
+
+table {
+  width: 70%;
+  background-color: white;
+  margin: auto;
+  margin-top: 2%;
+  font-family: 'qatar2022arabic-bold';
+}
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  text-align: center;
+  border-bottom: 1px solid black;
+
+}
+th{
+  background-color: #50B8A8;
+}
+
+#boton{
+  margin: 2% 42%;
+}
+
+#faseMuerte{
+  text-align: center;
+  font-family: 'qatar2022arabic-bold';
+  margin: 2%;
+}
+#faseMuerte h3{
+  font-size: 5em;
+  color: #fff;
+}
+
+#faseMuerte p{
+  color: #000000;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 1%;
+  white-space:  nowrap;
+  border-right: 4px solid;
+  width: 40ch;
+  animation: typing 2s steps(12) , blink .5s infinite step-end  alternate ;
+  overflow: hidden;
+}
+
+#faseMuerte p:hover{
+  color: #ffffff;
+}
+
+#logo{
+  position: absolute;
+  margin: 1%;
+  left: 0;
+}
+#logo:hover{
+  filter: none;
+  transform: scale(1.1);
+  transition: all 1s;
+  
+}
+#logo img{
+  width: 60px;
+  height: 60px;
+}
+
+@keyframes  typing {
+  from{width: 0;}
+}
+@keyframes blink{
+  50%{border-color: transparent;}
+}
