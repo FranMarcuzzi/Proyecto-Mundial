@@ -58,8 +58,8 @@
     // SIMULATE MATCH
 
   function simularPartidoGrupo(pais1,pais2){
-      let resultadoEquipo1 = Math.floor(Math.random() * 8);
-      let resultadoEquipo2 = Math.floor(Math.random() * 8);
+      let resultadoEquipo1 = Math.floor(Math.random() * 6);
+      let resultadoEquipo2 = Math.floor(Math.random() * 6);
       if (resultadoEquipo1 > resultadoEquipo2){
           pais1.puntos +=3;
       }
@@ -74,8 +74,8 @@
       return resultado;
   }
   function simularPartidoMuerte(pais1,pais2){
-    let resultadoEquipo1 = Math.floor(Math.random() * 8);
-    let resultadoEquipo2 = Math.floor(Math.random() * 8);
+    let resultadoEquipo1 = Math.floor(Math.random() * 6);
+    let resultadoEquipo2 = Math.floor(Math.random() * 6);
     let resultado ="";
     if (resultadoEquipo1 > resultadoEquipo2){
         pais1.puntos +=3;
