@@ -334,7 +334,6 @@ function final(mundial){
     document.getElementById("faseMuerte").append(titulo);
     let texto = document.createElement("p");
     texto.innerHTML = ganador;
-    texto.style.border="2px solid #ffffff"
     document.getElementById("faseMuerte").append(texto);
     document.getElementById("boton").value="Volver al menu";
 
