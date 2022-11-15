@@ -232,8 +232,10 @@ function octavos(mundial){
         texto.innerHTML = partido;
         document.getElementById("faseMuerte").append(texto);
     }
+    mundial.sort(ordenar_subita);
+    let finales = mundial.slice(0,8);
     let simulado = document.getElementById("boton");
-    simulado.addEventListener("click",()=>cuartos(mundial));
+    simulado.addEventListener("click",()=>cuartos(finales));
 }
     // CUARTOS
     function ordenar_subita(a,b){
@@ -247,8 +249,9 @@ function octavos(mundial){
         }
     
 function cuartos(mundial){
+
     let cuarto = [0,0,0,0]
-    mundial.sort(ordenar_subita);
+    
     cuarto[0] = simularPartidoMuerte(mundial[0],mundial[1],"cuart");
     mundial[0].partidos.push(cuarto[0]);
     mundial[1].partidos.push(cuarto[0]);
@@ -276,9 +279,10 @@ function cuartos(mundial){
         texto.innerHTML = partido;
         document.getElementById("faseMuerte").append(texto);
     }
-
+    mundial.sort(ordenar_subita);
+    let finales = mundial.slice(0,4);
     let simulado = document.getElementById("boton");
-    simulado.addEventListener("click",()=>semifinal(mundial));
+    simulado.addEventListener("click",()=>semifinal(finales));
 
 
 }
@@ -304,13 +308,13 @@ function semifinal(mundial){
         texto.innerHTML = partido;
         document.getElementById("faseMuerte").append(texto);
     }
-
+    mundial.sort(ordenar_subita);
+    let finales = mundial.slice(0,2);
     let simulado = document.getElementById("boton");
-    simulado.addEventListener("click",()=>final(mundial));
+    simulado.addEventListener("click",()=>final(finales));
 }
 
 function final(mundial){
-    mundial.sort(ordenar_subita);
     let ganador = simularPartidoMuerte(mundial[0],mundial[1],"fin");
     mundial[0].partidos.push(ganador);
     mundial[1].partidos.push(ganador);
@@ -324,7 +328,8 @@ function final(mundial){
     texto.innerHTML = ganador;
     document.getElementById("faseMuerte").append(texto);
     document.getElementById("boton").value="Volver al menu";
-
+    
+    mundial.sort(ordenar_subita);
     let simulado = document.getElementById("boton");
     simulado.addEventListener("click",()=>restaurar());
 
