@@ -139,6 +139,7 @@
        
                      
       } 
+      mundial.sort(ordenar_grupo);
      
     //   CREE LA TABLA DE POSICIONES
       let crearTabla = function(lista){
@@ -175,19 +176,18 @@
     
   }
 function ordenar_grupo(a,b){
-    if( ( a.puntos > b.puntos )&&(a.grupo==b.grupo)){
+    if( ( a.puntos < b.puntos )&&(a.grupo==b.grupo)){
         return 1;
       }
-      if (( a.puntos < b.puntos )&&(a.grupo==b.grupo)){
+      if (( a.puntos > b.puntos )&&(a.grupo==b.grupo)){
         return -1;
       }
       return 0;
     }
 
 
-function octavos(mundial){    
-
-    mundial.sort(ordenar_grupo);
+function octavos(mundial){
+    mundial.sort(ordenar_grupo);    
     let oct = [0,0,0,0,0,0,0,0];
 //    NOSE COMO HACERLO AUTOMATICO
 // OCTAVOS
@@ -236,20 +236,19 @@ function octavos(mundial){
     simulado.addEventListener("click",()=>cuartos(mundial));
 }
     // CUARTOS
-function ordenar(a,b){
-    if ( a.puntos < b.puntos ){
-        return 1;
-      }
-      if ( a.puntos > b.puntos ){
-        return -1;
-      }
-      return 0;
-    }
-
+    function ordenar_subita(a,b){
+        if(  a.puntos < b.puntos ){
+            return 1;
+          }
+          if ( a.puntos > b.puntos ){
+            return -1;
+          }
+          return 0;
+        }
+    
 function cuartos(mundial){
     let cuarto = [0,0,0,0]
-    mundial.sort(ordenar);
-
+    mundial.sort(ordenar_subita);
     cuarto[0] = simularPartidoMuerte(mundial[0],mundial[1],"cuart");
     mundial[0].partidos.push(cuarto[0]);
     mundial[1].partidos.push(cuarto[0]);
@@ -285,7 +284,7 @@ function cuartos(mundial){
 }
     
 function semifinal(mundial){
-    mundial.sort(ordenar);
+    mundial.sort(ordenar_subita);
    
     let semi = [0,0];
     semi[0]= simularPartidoMuerte(mundial[0],mundial[1],"sem");
@@ -311,7 +310,7 @@ function semifinal(mundial){
 }
 
 function final(mundial){
-    mundial.sort(ordenar);
+    mundial.sort(ordenar_subita);
     let ganador = simularPartidoMuerte(mundial[0],mundial[1],"fin");
     mundial[0].partidos.push(ganador);
     mundial[1].partidos.push(ganador);
