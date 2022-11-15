@@ -73,16 +73,29 @@
       let resultado = `${pais1.pais} ${resultadoEquipo1} - ${resultadoEquipo2} ${pais2.pais}`;
       return resultado;
   }
-  function simularPartidoMuerte(pais1,pais2){
+  function simularPartidoMuerte(pais1,pais2,fase){
     let resultadoEquipo1 = Math.floor(Math.random() * 6);
     let resultadoEquipo2 = Math.floor(Math.random() * 6);
     let resultado ="";
+    let n =0;
+    if(fase=="oct"){
+        n = 10;
+    }
+    else if(fase=="cuart"){
+        n = 20;
+    }
+    else if(fase == "sem"){
+        n = 35;
+    }
+    else if(fase == "fin"){
+        n = 50;
+    }
     if (resultadoEquipo1 > resultadoEquipo2){
-        pais1.puntos +=3;
+        pais1.puntos += n;
         resultado = `${pais1.pais} ${resultadoEquipo1} - ${resultadoEquipo2} ${pais2.pais}`;
     }
     else if(resultadoEquipo1 < resultadoEquipo2){
-        pais2.puntos += 3;
+        pais2.puntos += n;
         resultado = `${pais1.pais} ${resultadoEquipo1} - ${resultadoEquipo2} ${pais2.pais}`;
 
     }
@@ -94,10 +107,10 @@
             penal2 = Math.floor(Math.random() * 8);
         }
         if (penal1 > penal2){
-            pais1.puntos +=3;
+            pais1.puntos +=n;
         }
         else if(penal1 < penal2){
-            pais2.puntos += 3;
+            pais2.puntos += n;
         }
         resultado = `${pais1.pais} ${resultadoEquipo1}(${penal1}) - ${resultadoEquipo2}(${penal2}) ${pais2.pais}`;
         
@@ -157,63 +170,60 @@
     boton.value="Siguiente ronda";
     document.body.append(boton);
 
-
     let simulado = document.getElementById("boton");
     simulado.addEventListener("click",()=>octavos(mundial));
     
   }
+function ordenar_grupo(a,b){
+    if( ( a.puntos > b.puntos )&&(a.grupo==b.grupo)){
+        return 1;
+      }
+      if (( a.puntos < b.puntos )&&(a.grupo==b.grupo)){
+        return -1;
+      }
+      return 0;
+    }
+
 
 function octavos(mundial){    
 
-    mundial.sort((a,b)=>{
-        if((a.puntos > b.puntos) && (a.grupo == b.grupo)){
-            return -1;
-        }
-        else if((a.puntos < b.puntos) && (a.grupo == b.grupo)){
-            return 1;
-        }
-        
-        else{
-            return 0; } 
-            
-        });
+    mundial.sort(ordenar_grupo);
     let oct = [0,0,0,0,0,0,0,0];
 //    NOSE COMO HACERLO AUTOMATICO
 // OCTAVOS
-    oct[0] = simularPartidoMuerte(mundial[0],mundial[5]);
+    oct[0] = simularPartidoMuerte(mundial[0],mundial[5],"oct");
     mundial[0].partidos.push(oct[0]);
-    mundial[5].partidos.push(oct[0]);
+    mundial[5].partidos.push(oct[0])
 
-
-    oct[1] = simularPartidoMuerte(mundial[1],mundial[4]);
+    oct[1] = simularPartidoMuerte(mundial[1],mundial[4],"oct");
     mundial[1].partidos.push(oct[1]);
     mundial[4].partidos.push(oct[1]);
 
-    oct[2] = simularPartidoMuerte(mundial[8],mundial[13]);
+    oct[2] = simularPartidoMuerte(mundial[8],mundial[13],"oct");
     mundial[8].partidos.push(oct[2]);
     mundial[13].partidos.push(oct[2]);
 
-    oct[3] = simularPartidoMuerte(mundial[9],mundial[12]);
+    oct[3] = simularPartidoMuerte(mundial[9],mundial[12],"oct");
     mundial[9].partidos.push(oct[3]);
     mundial[12].partidos.push(oct[3]);
 
-    oct[4] = simularPartidoMuerte(mundial[16],mundial[21]);
+    oct[4] = simularPartidoMuerte(mundial[16],mundial[21],"oct");
     mundial[16].partidos.push(oct[4]);
     mundial[21].partidos.push(oct[4]);
 
-    oct[5] = simularPartidoMuerte(mundial[17],mundial[20]);
+    oct[5] = simularPartidoMuerte(mundial[17],mundial[20],"oct");
     mundial[17].partidos.push(oct[5]);
     mundial[20].partidos.push(oct[5]);
 
-    oct[6] = simularPartidoMuerte(mundial[24],mundial[29]);
+    oct[6] = simularPartidoMuerte(mundial[24],mundial[29],"oct");
     mundial[24].partidos.push(oct[6]);
     mundial[29].partidos.push(oct[6]);
 
-    oct[7] = simularPartidoMuerte(mundial[25],mundial[28]);
+    oct[7] = simularPartidoMuerte(mundial[25],mundial[28],"oct");
     mundial[25].partidos.push(oct[7]);
     mundial[28].partidos.push(oct[7]);
     
-    document.getElementById("tablaGrupo").style.display ="none";
+    document.getElementById("tablaGrupo").innerHTML="";
     let titulo =document.createElement("h3");
     titulo.innerHTML = "Octavos de final";
     document.getElementById("faseMuerte").append(titulo);
@@ -222,40 +232,38 @@ function octavos(mundial){
         texto.innerHTML = partido;
         document.getElementById("faseMuerte").append(texto);
     }
-    
     let simulado = document.getElementById("boton");
     simulado.addEventListener("click",()=>cuartos(mundial));
 }
     // CUARTOS
+function ordenar(a,b){
+    if ( a.puntos < b.puntos ){
+        return 1;
+      }
+      if ( a.puntos > b.puntos ){
+        return -1;
+      }
+      return 0;
+    }
 
 function cuartos(mundial){
     let cuarto = [0,0,0,0]
-    mundial.sort((a,b) => {
-        if(a.puntos > b.puntos){
-            return -1;
-        }
-        else if(a.puntos < b.puntos){
-            return 1;
-        }
-        else{
-            return 0; } 
-            
-        });
+    mundial.sort(ordenar);
 
-    cuarto[0] = simularPartidoMuerte(mundial[0],mundial[1]);
+    cuarto[0] = simularPartidoMuerte(mundial[0],mundial[1],"cuart");
     mundial[0].partidos.push(cuarto[0]);
     mundial[1].partidos.push(cuarto[0]);
 
 
-    cuarto[1] = simularPartidoMuerte(mundial[2],mundial[3]);
+    cuarto[1] = simularPartidoMuerte(mundial[2],mundial[3],"cuart");
     mundial[2].partidos.push(cuarto[1]);
     mundial[3].partidos.push(cuarto[1]);
 
-    cuarto[2] = simularPartidoMuerte(mundial[4],mundial[5]);
+    cuarto[2] = simularPartidoMuerte(mundial[4],mundial[5],"cuart");
     mundial[4].partidos.push(cuarto[2]);
     mundial[5].partidos.push(cuarto[2]);
 
-    cuarto[3]= simularPartidoMuerte(mundial[6],mundial[7]);
+    cuarto[3]= simularPartidoMuerte(mundial[6],mundial[7],"cuart");
     mundial[6].partidos.push(cuarto[3]);
     mundial[7].partidos.push(cuarto[3]);
    
@@ -277,22 +285,13 @@ function cuartos(mundial){
 }
     
 function semifinal(mundial){
-    mundial.sort((a,b) => {
-        if(a.puntos > b.puntos){
-            return -1;
-        }
-        else if(a.puntos < b.puntos){
-            return 1;
-        }
-        else{
-            return 0; } 
-            
-        });
+    mundial.sort(ordenar);
+   
     let semi = [0,0];
-    semi[0]= simularPartidoMuerte(mundial[0],mundial[1]);
+    semi[0]= simularPartidoMuerte(mundial[0],mundial[1],"sem");
     mundial[0].partidos.push(semi[0]);
     mundial[1].partidos.push(semi[0]);
-    semi[1]= simularPartidoMuerte(mundial[2],mundial[3]);
+    semi[1]= simularPartidoMuerte(mundial[2],mundial[3],"sem");
     mundial[2].partidos.push(semi[1]);
     mundial[3].partidos.push(semi[1]);
     
@@ -312,18 +311,8 @@ function semifinal(mundial){
 }
 
 function final(mundial){
-    mundial.sort((a,b) => {
-        if(a.puntos > b.puntos){
-            return -1;
-        }
-        else if(a.puntos < b.puntos){
-            return 1;
-        }
-        else{
-            return 0; } 
-            
-        });
-    let ganador = simularPartidoMuerte(mundial[0],mundial[1]);
+    mundial.sort(ordenar);
+    let ganador = simularPartidoMuerte(mundial[0],mundial[1],"fin");
     mundial[0].partidos.push(ganador);
     mundial[1].partidos.push(ganador);
 
