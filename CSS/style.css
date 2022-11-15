@@ -39,7 +39,7 @@ svg{
   white-space:  nowrap;
   border-right: 4px solid;
   width: 23ch;
-  animation: typing 2s steps(12) , blink .5s 1 step-end  alternate ;
+  animation: typing 2s steps(12) , blink .5s 8 step-end  alternate ;
   overflow: hidden;
 }
 .contenedor__botones{
@@ -165,7 +165,7 @@ th{
   white-space:  nowrap;
   border-right: 4px solid;
   width: 40ch;
-  animation: typing 2s steps(12) , blink .5s 1 step-end  alternate ;
+  animation: typing 2s steps(12) , blink .5s 8 step-end  alternate ;
   overflow: hidden;
 }
 
