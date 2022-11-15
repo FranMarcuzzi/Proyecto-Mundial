@@ -189,6 +189,30 @@ th{
   height: 60px;
 }
 
+.A{
+  border : 2px solid #EE67B2;
+}
+.B{
+  border: 2px solid #ED3833;
+}
+.C{
+  border: 2px solid #F28E3C;
+}
+.D{
+  border: 2px solid #F1F14E;
+}
+.E{
+  border: 2px solid #418F21;
+}
+.F{
+  border: 2px solid #52C0C0;
+}
+.G{
+  border: 2px solid #412A98;
+}
+.H{
+  border: 2px solid #8E308E;
+}
 @keyframes  typing {
   from{width: 0;}
 }

@@ -145,10 +145,10 @@
       let crearTabla = function(lista){
           let stringTabla = "<tr><th>Pais</th><th>Grupo</th><th>Puntos</th></tr>"
           for(let equipo of lista){
-              let fila = "<tr> <td>";
+              let fila = "<tr> <td >";
               fila += equipo.pais;
               fila += "</td>";
-              fila += "<td>";
+              fila += `<td class="${equipo.grupo}">`;
               fila += equipo.grupo;
               fila += "</td>";
               fila += "<td>";
