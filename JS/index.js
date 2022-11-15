@@ -392,7 +392,7 @@ class Seleccion{
 function crearEvento(){
     let paises = ["Qatar","Ecuador","Senegal","Holanda","Inglaterra","Iran","USA","Wales","Argentina","Arabia Saudita","Mexico","Polonia","Francia",
                   "Australia","Dinamarca","Tunisia","España","Costa Rica","Alemania","Japon","Belgica","Canada","Marruecos","Croacia","Brasil","Serbia","Suiza",
-                  "Cameron","Portugal","Ghana","Uruguay","Corea del sur" ];
+                  "Cameron","Portugal","Ghana","Uruguay","Corea del sur","Octavos","Cuartos","Semifinal","Final" ];
     
     let selecciones=[];
     for (const pais of paises) {
@@ -448,11 +448,16 @@ function crearEvento(){
     selecciones[30].partidos = ["24 de Noviembre - 10:00 hs VS Corea del Sur","28 de Noviembre - 16:00 hs VS Portugal", "2 de Diciembre - 12:00 hs VS Ghana"];
     selecciones[31].partidos = ["24 de Noviembre - 10:00 hs VS Uruguay","28 de Noviembre - 10:00 hs VS Ghana","2 de Diciembre - 12:00 hs VS Portugal"];
 
+    // FASE ELIMINATORIA
+    selecciones[32].partidos = ["3 de Diciembre - 12:00 hs","3 de Diciembre - 16:00 hs","4 de Diciembre - 12:00 hs","4 de Diciembre - 16:00 hs","5 de Diciembre - 12:00 hs","5 de Diciembre - 16:00 hs","6 de Diciembre - 12:00 hs","6 de Diciembre - 16:00 hs"];
+    selecciones[33].partidos = ["9 de Diciembre - 12:00 hs","9 de Diciembre - 16:00 hs","10 de Diciembre - 12:00 hs","10 de Diciembre - 16:00 hs"];
+    selecciones[34].partidos =["13 de Diciembre - 16:00 hs","14 de Diciembre - 16:00 hs"];
+    selecciones[35].partidos = ["18 de Diciembre - 12:00 hs"];
     return selecciones;
 }
 
 function busqueda(selecciones){
-    let buscar = prompt("Ingrese el pais que desea saber sus partidos.")
+    let buscar = prompt("RECUERDE!!\n\nPara saber la fecha sobre la Fase Eliminatoria\n*Octavos\n*Cuartos\n*Semifinal\n*Final\n\nIngrese el pais que desea saber sus partidos.")
     buscar = buscar.toLowerCase();
     let encontrado;
     let flag = false;
