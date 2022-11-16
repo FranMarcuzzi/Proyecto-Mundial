@@ -60,6 +60,12 @@
   function simularPartidoGrupo(pais1,pais2){
       let resultadoEquipo1 = Math.floor(Math.random() * 6);
       let resultadoEquipo2 = Math.floor(Math.random() * 6);
+      if(pais1.pais == "Argentina"){
+          resultadoEquipo1 +=2;
+      }
+      else if(pais2.pais == "Argentina"){
+            resultadoEquipo2 += 2;
+      }
       if (resultadoEquipo1 > resultadoEquipo2){
           pais1.puntos +=3;
       }
@@ -76,6 +82,12 @@
   function simularPartidoMuerte(pais1,pais2,fase){
     let resultadoEquipo1 = Math.floor(Math.random() * 6);
     let resultadoEquipo2 = Math.floor(Math.random() * 6);
+    if(pais1.pais == "Argentina"){
+        resultadoEquipo1 +=2;
+    }
+    else if(pais2.pais == "Argentina"){
+          resultadoEquipo2 += 2;
+    }
     let resultado ="";
     let n =0;
     if(fase=="oct"){
