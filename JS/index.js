@@ -499,7 +499,7 @@ function busqueda(selecciones,equipo){
             confirmButtonText: 'Ok',
             background: 'url(../imagenes/fondo_login.JPEG)',
             color: '#fffdf7',
-            confirmButtonColor:'#50B8A8'
+            confirmButtonColor:'#50B8A8',
           })    }
     for (const partido of encontrado.partidos) {
        let texto = document.createElement("p");
