@@ -62,7 +62,7 @@ input{
   
 }
 
-input:hover{
+.contenedor__botones input:hover{
   background-color: #87FFED;
   transform: scale(1.3);
   color: #000000;
@@ -173,6 +173,12 @@ th{
   color: #ffffff;
 }
 
+#faseMuerte p span{
+  color: #ffffff;
+}
+#faseMuerte p:hover span{
+  color: #87FFED;
+}
 #logo{
   position: absolute;
   margin: 1%;
@@ -219,3 +225,76 @@ th{
 @keyframes blink{
   50%{border-color: transparent;}
 }
+
+#star{
+  position: absolute;
+  right: 0;
+  text-align: center;
+  margin-right: 3%;
+  margin-top: 0.5%;
+  font-size: 30px;
+  transition: 1s;
+  color: #ffffff;
+  font-weight: 400;
+
+}
+
+#star:hover{
+  transform:  scale(1.4);
+  color: #50B8A8;
+
+}
+
+#login{
+  display: none;
+  background-image: url(../imagenes/fondo_login.JPEG);
+  height: 23em;
+  width: 20em;
+  margin: auto;
+  margin-top: 2%;
+  background-color: transparent;
+}
+
+#ok ,#user ,#password{
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  margin: 8%;
+  margin-left: 15%;
+
+}
+
+#user ,#password{
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #fff;
+}
+#ok{
+  margin-top: 13%;
+}
+#login input:focus{
+  outline: none;
+  border: 3px solid #50B8A8;
+  transition: 0.5s;
+}
+#login input:hover{
+  transform: scale(1.09);
+}
+
+#login input::placeholder{
+  opacity: 0.6;
+  letter-spacing: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.swal2-input::placeholder{
+  opacity: 0.5;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+.swal2-title ,.swal2-text{
+  font-family: 'qatar2022arabic-bold';
+
+}
+
