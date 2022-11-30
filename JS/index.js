@@ -412,17 +412,17 @@ function crearEvento(){
         selecciones.push(seleccion);
     }
     // GRUPO A
-    selecciones[0].partidos = ["el 20 de Noviembre  <span>Perdio 2 a 0</span> VS Ecuador","25 de Noviembre <span>Perdio 3 a 1</span> VS Senegal","29 de Noviembre - 12:00 hs VS Holanda"];
-    selecciones[1].partidos = ["el 20 de Noviembre  <span>Gano 2 a 0</span> VS Qatar", "25 de Noviembre <span>Igualo 1 a 1</span> VS Holanda","29 de Noviembre - 12:00 hs VS Senegal"];
-    selecciones[2].partidos = ["21 de Noviembre  <span>Perdio 2 a 0</span> VS a Holanda","25 de Noviembre <span>Gano 3 a 1</span> VS Qatar","29 de Noviembre -12:00 hs VS Ecuador"];
-    selecciones[3].partidos = ["21 de Noviembre  <span>Gano 2 a 0</span> a Senegal","25 de Noviembre <span>Igualo 1 a 1</span> VS Holanda","29 de Noviembre - 12:00 hs VS Qatar"];
+    selecciones[0].partidos = ["el 20 de Noviembre  <span>Perdio 2 a 0</span> VS Ecuador","25 de Noviembre <span>Perdio 3 a 1</span> VS Senegal","29 de Noviembre <span>Perdio 2 a 0</span> VS Holanda"];
+    selecciones[1].partidos = ["el 20 de Noviembre  <span>Gano 2 a 0</span> VS Qatar", "25 de Noviembre <span>Igualo 1 a 1</span> VS Holanda","29 de Noviembre <span>Perdio 2 a 1</span> VS Senegal"];
+    selecciones[2].partidos = ["21 de Noviembre  <span>Perdio 2 a 0</span> VS a Holanda","25 de Noviembre <span>Gano 3 a 1</span> VS Qatar","29 de Noviembre <span>Gano 2 a 1</span> VS Ecuador"];
+    selecciones[3].partidos = ["21 de Noviembre  <span>Gano 2 a 0</span> a Senegal","25 de Noviembre <span>Igualo 1 a 1</span> VS Holanda","29 de Noviembre <span>Gano 2 a 0</span> VS Qatar"];
 
     // GRUPO B
 
-    selecciones[4].partidos = ["21 de Noviembre  <span>Gano 6 a 2</span> VS Iran", "25 de Noviembre <span>Igualo 0 a 0</span> VS a Estados Unidos","29 de Novimebre - 16:00 hs   VS a Wales"];
-    selecciones[5].partidos = ["21 de Noviembre  <span>Perdio 6 a 2</span> VS Inglaterra","25 de Noviembre <span>Gano 2 a 0</span>  VS Wales.","29 de Noviembre - 16:00 hs   VS Estados Unidos"];
-    selecciones[6].partidos = ["21 de Noviembre  <span>Igualo 1 a 1</span> VS Wales","25 de Noviembre <span>Igualo 0 a 0</span> VS a Inglaterra","29 de Noviembre - 16:00 hs   VS Iran"];
-    selecciones[7].partidos = ["21 de Noviembre  <span>Igualo 1 a 1</span> VS Estados Unidos","25 de Noviembre <span>Perdio 2 a 0</span> VS Iran","29 de Novimebre - 16:00 hs   VS a Inglaterra"];
+    selecciones[4].partidos = ["21 de Noviembre  <span>Gano 6 a 2</span> VS Iran", "25 de Noviembre <span>Igualo 0 a 0</span> VS a Estados Unidos","29 de Novimebre <span>Gano 3 a 0</span> VS a Wales"];
+    selecciones[5].partidos = ["21 de Noviembre  <span>Perdio 6 a 2</span> VS Inglaterra","25 de Noviembre <span>Gano 2 a 0</span>  VS Wales.","29 de Noviembre <span>Perdio 1 a 0</span> VS Estados Unidos"];
+    selecciones[6].partidos = ["21 de Noviembre  <span>Igualo 1 a 1</span> VS Wales","25 de Noviembre <span>Igualo 0 a 0</span> VS a Inglaterra","29 de Noviembre <span>Gano 1 a 0</span> VS Iran"];
+    selecciones[7].partidos = ["21 de Noviembre  <span>Igualo 1 a 1</span> VS Estados Unidos","25 de Noviembre <span>Perdio 2 a 0</span> VS Iran","29 de Novimebre <span>Perdio 3 a 0</span> VS a Inglaterra"];
 
     // GRUPO C
     selecciones[8].partidos = ["22 de Noviembre <span>Perdio 2 a 1</span> VS Arabia Saudita","26 de Noviembre <span>Gano 2 a 0</span> hs VS Mexico","30 de Noviembre - 16:00 hs VS Polonia"];
