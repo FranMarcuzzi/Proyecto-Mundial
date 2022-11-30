@@ -556,7 +556,8 @@ function favorito(selecciones){
             if (result.isConfirmed){
                 let equipo = result.value.toLowerCase();
                 sessionStorage.setItem("equipo",equipo);
-                // document.getElementById("star").style.fontWeight="bold";
+                busqueda(selecciones,equipo);
+                document.getElementById("star").style.fontWeight="bold";
         }
     });
 
