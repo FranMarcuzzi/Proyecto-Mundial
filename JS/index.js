@@ -519,9 +519,9 @@ function encontrado(selecciones){
 
     Swal.fire({
         icon:'question',
-        title: 'Ingrese su email para verificar si posee favorito',
+        title: 'Ingrese el pais a buscar',
         input: "text",
-        inputPlaceholder: 'Ingrese el para poner como favorito',
+        inputPlaceholder: 'Argentina',
         confirmButtonText: 'Ok',
         background: 'url(../imagenes/fondo_login.JPEG)',
         color: '#fffdf7',
@@ -545,9 +545,9 @@ function favorito(selecciones){
     else{
         Swal.fire({
             icon:'question',
-            title: 'Ingrese su email para verificar si posee favorito',
+            title: 'Ingrese el pais a añadir favorito',
             input: "text",
-            inputPlaceholder: 'Ingrese el para poner como favorito',
+            inputPlaceholder: 'Argentina',
             confirmButtonText: 'Ok',
             background: 'url(../imagenes/fondo_login.JPEG)',
             color: '#fffdf7',
