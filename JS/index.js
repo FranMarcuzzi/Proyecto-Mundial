@@ -437,7 +437,7 @@ function crearEvento(){
     selecciones[15].partidos = ["22 de Noviembre <span>Igualo 0 a 0</span> VS Dinamarca", "26 de Noviembre <span>Perdio 1 a 0</span> VS Australia","30 de Noviembre <span>Gano 1 a 0</span> VS Francia"];
     
     // GRUPO E
-    selecciones[16].partidos = ["23 de Noviembre <span>Gano 7 a 0</span> VS Costa Rica","27 de Noviembre <span>Igualo 1 a 1</span> hs VS Alemania","1 de Diciembre <span>Perdio 2 a 1</span> VS Japon"," ","<span>Octavos de final</span>","6 de Diciembre - 12:00 hs vs Marruecos"];
+    selecciones[16].partidos = ["23 de Noviembre <span>Gano 7 a 0</span> VS Costa Rica","27 de Noviembre <span>Igualo 1 a 1</span> hs VS Alemania","1 de Diciembre <span>Perdio 2 a 1</span> VS Japon"," ","<span>Octavos de final</span>","6 de Diciembre <span>Perdio 0(0) a 0(3)</span> vs Marruecos"];
     selecciones[17].partidos = ["23 de Noviembre <span>Perdio 7 a 0</span> VS España","27 de Noviembre <span>Gano 1 a 0</span> VS Japon","1 de Diciembre <span>Perdio 4 a 2</span> VS Alemania"];
     selecciones[18].partidos = ["23 de Noviembre <span>Perdio 2 a 1</span> VS Japon","27 de Noviembre <span>Igualo 1 a 1</span> VS España","1 de Diciembre <span>Gano 4 a 2</span> VS Costa Rica"];
     selecciones[19].partidos = ["23 de Noviembre <span>Gano 2 a 1</span> VS Alemania","27 de Noviembre <span>Perdio 1 a 0</span> VS Costa Rica","1 de Diciembre <span>Gano 2 a 1</span> VS España" ," ","<span>Octavos de final</span>","5 de Diciembre <span>Perdio 1(1) a 1(3)</span> vs Croacia"];
@@ -445,23 +445,23 @@ function crearEvento(){
     // GRUPO F
     selecciones[20].partidos = ["23 de Noviembre <span>Gano 1 a 0</span> hs VS Canada","27 de Noviembre <span>Perdio 2 a 0</span> hs VS Marruecos","1 de Diciembre <span>Igualo 0 a 0</span> VS Crocia"];
     selecciones[21].partidos = ["23 de Noviembre <span>Perdio 1 a 0</span> VS Belgica","27 de Noviembre <span>Perdio 4 a 1</span> VS Croacia","1 de Diciembre <span>Perdio 2 a 1</span> VS Marruecos"];
-    selecciones[22].partidos = ["23 de Noviembre <span>Igualo 0 a 0</span> VS Croacia","27 de Noviembre <span>Gano 2 a 0</span> VS Belgica","1 de Diciembre <span>Gano 2 a 1</span> VS Canada" ," ","<span>Octavos de final</span>","6 de Diciembre - 12:00 hs vs España"];
+    selecciones[22].partidos = ["23 de Noviembre <span>Igualo 0 a 0</span> VS Croacia","27 de Noviembre <span>Gano 2 a 0</span> VS Belgica","1 de Diciembre <span>Gano 2 a 1</span> VS Canada" ," ","<span>Octavos de final</span>","6 de Diciembre <span>Gano 0(3) a 0(0)</span> vs España"];
     selecciones[23].partidos = ["23 de Noviembre <span>Igualo 0 a 0</span> VS Marruecos","27 de Noviembre <span>Gano 4 a 1</span> VS Canada","1 de Diciembre <span>Igualo 0 a 0</span> VS Belgica" ," ","<span>Octavos de final</span>","5 de Diciembre <span>Gano 1(3) a 1(1)</span> vs Japon"," ","<span>Cuartos de final</span>","9 de Diciembre - 12:00 hs vs Brasil"]
 
     // GRUPO G
     selecciones[24].partidos = ["24 de Noviembre <span>Gano 2 a 0</span> VS Serbia","28 de Noviembre - 13:00 hs VS Suiza","2 de Diciembre <span>Perdio 1 a 0</span> VS Camerun"," ","<span>Octavos de final</span>","5 de Diciembre <span>Gano 4 a 1</span> vs Corea del Sur"," ","<span>Octavos de final</span>","9 de Diciembre - 12:00 hs vs Croacia"];
     selecciones[25].partidos = ["24 de Noviembre <span>Perdio 2 a 0</span> VS Brasil","28 de Noviembre <span>Igualo 3 a 3</span> VS Camerun","2 de Diciembre <span>Perdio 3 a 2</span> VS Suiza"];
-    selecciones[26].partidos = ["24 de Noviembre <span>Gano 1 a 0</span> VS Camerun","28 de Noviembre - 13:00 hs VS Brasil","2 de Diciembre <span>Gano 3 a 2</span> VS Serbia"," ","<span>Octavos de final</span>","6 de Diciembre - 16:00 hs vs Portugal"];
+    selecciones[26].partidos = ["24 de Noviembre <span>Gano 1 a 0</span> VS Camerun","28 de Noviembre - 13:00 hs VS Brasil","2 de Diciembre <span>Gano 3 a 2</span> VS Serbia"," ","<span>Octavos de final</span>","6 de Diciembre <span>Perdio 6 a 1</span> vs Portugal"];
     selecciones[27].partidos = ["24 de Noviembre <span>Perdio 0 a 0</span> VS Suiza","28 de Noviembre <span>Igualo 3 a 3</span> VS Serbia","2 de Diciembre <span>Gano 1 a 0</span> VS Brasil"];
 
     // GRUPO H 
-    selecciones[28].partidos = ["24 de Noviembre <span>Gano 3 a 2</span> VS Ghana","28 de Noviembre - 16:00 hs VS Uruguay", "2 de Diciembre <span>Perdio 2 a 1</span> VS Corea del sur"]," ","<span>Octavos de final</span>","6 de Diciembre - 16:00 hs vs Suiza";
+    selecciones[28].partidos = ["24 de Noviembre <span>Gano 3 a 2</span> VS Ghana","28 de Noviembre - 16:00 hs VS Uruguay", "2 de Diciembre <span>Perdio 2 a 1</span> VS Corea del sur"]," ","<span>Octavos de final</span>","6 de Diciembre <span>Gano 6 a 1</span> vs Suiza";
     selecciones[29].partidos = ["24 de Noviembre <span>Perdio 3 a 2</span> VS Portugal", "28 de Noviembre - 10:00 hs VS Corea del sur","2 de Diciembre <span>Perdio 2 a 0</span> VS Uruguay"];
     selecciones[30].partidos = ["24 de Noviembre <span>Igualo 0 a 0</span> VS Corea del Sur","28 de Noviembre - 16:00 hs VS Portugal", "2 de Diciembre <span>Gano 2 a 0</span> hs VS Ghana"];
     selecciones[31].partidos = ["24 de Noviembre <span>Igualo 0 a 0</span> VS Uruguay","28 de Noviembre - 10:00 hs VS Ghana","2 de Diciembre <span>Gano 2 a 1</span> VS Portugal"," ","<span>Octavos de final</span>","5 de Diciembre <span>Perdio 4 a 1</span> vs Brasil"];
 
     // FASE ELIMINATORIA
-    selecciones[32].partidos = ["3 de Diciembre <span>Holanda 3 - 1 Estados Unidos</span>","3 de Diciembre <span>Argentina 2 - 1 Australia</span>","4 de Diciembre <span>Francia 3 - 1 Polonia</span>","4 de Diciembre <span>Inglaterra 3 - 0 Senegal</span>","5 de Diciembre <span>Cracia 1(3) - 1(1) Japon</span>","5 de Diciembre <span>Brasil 4 - 1 Corea del sur</span>","6 de Diciembre - 12:00 hs <span>España vs Marruecos</span>","6 de Diciembre - 16:00 hs <span>Portugual vs Suiza</span>"];
+    selecciones[32].partidos = ["3 de Diciembre <span>Holanda 3 - 1 Estados Unidos</span>","3 de Diciembre <span>Argentina 2 - 1 Australia</span>","4 de Diciembre <span>Francia 3 - 1 Polonia</span>","4 de Diciembre <span>Inglaterra 3 - 0 Senegal</span>","5 de Diciembre <span>Cracia 1(3) - 1(1) Japon</span>","5 de Diciembre <span>Brasil 4 - 1 Corea del sur</span>","6 de Diciembre <span>España 0(0) - 0(3) Marruecos</span>","6 de Diciembre <span>Portugual 6 - 1 Suiza</span>"];
     selecciones[33].partidos = ["9 de Diciembre - 12:00 hs <span>Croacia vs Brasil</span>","9 de Diciembre - 16:00 hs <span>Argentina vs Holanda</span>","10 de Diciembre - 12:00 hs ","10 de Diciembre - 16:00 hs <span>Francia vs Inglaterra</span>"];
     selecciones[34].partidos =["13 de Diciembre - 16:00 hs","14 de Diciembre - 16:00 hs"];
     selecciones[35].partidos = ["18 de Diciembre - 12:00 hs"];
