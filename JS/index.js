@@ -576,3 +576,5 @@ if(sessionStorage.getItem("equipo")!=null){
     let equipo = sessionStorage.getItem("equipo");
     busqueda(selecciones,equipo);
 }
+
+// SE QUE EL TRABAJO NO ESTA TODO LO QUE SE PIDIO PERO YO COMENCE CON ESTRE PROYECTO Y NO TUVE TIEMPO DE EMPEZAR UNO DE CredentialsContainer.
