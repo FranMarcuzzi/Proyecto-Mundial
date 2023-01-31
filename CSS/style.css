@@ -244,49 +244,52 @@ th{
   color: #50B8A8;
 
 }
-
-#login{
-  display: none;
-  background-image: url(../imagenes/fondo_login.JPEG);
-  height: 23em;
-  width: 20em;
-  margin: auto;
-  margin-top: 2%;
-  background-color: transparent;
+#cup{
+  position: absolute;
+  right:0;
+  margin-right: 7%;
+  margin-top: 0.6%;
+  font-size: 28px;
+  color: #ffffff;
+  transition: 1s;
+}
+#cup:hover{
+  color: #FFDF00;
+  transform: scale(1.4);
 }
 
-#ok ,#user ,#password{
-  background-color: transparent;
-  border: 1px solid black;
+#podio h3{
   text-align: center;
-  margin: 8%;
-  margin-left: 15%;
+    font-size: 6em;
+    color: #fff;
+    font-family: 'qatar2022arabic-bold';
+
+  
+}
+#podio #primero{
+  text-align: center;
+  font-size: 4em;
+  color: #000000;
+  font-family: 'qatar2022arabic-heavy';
+  margin-top: 6%;
+  animation: agrandar 0.5s linear 4 alternate;
+
+
+}
+#emoji{
+  margin-left: 43%;
+  background-color: transparent;
+  font-size: 4em;
+  height: 6rem;
+  transition: 1s;
+  text-shadow: 8px 8px 20px black;
 
 }
 
-#user ,#password{
-  letter-spacing: 1px;
-  font-size: 1em;
-  color: #fff;
-}
-#ok{
-  margin-top: 13%;
-}
-#login input:focus{
-  outline: none;
-  border: 3px solid #50B8A8;
-  transition: 0.5s;
-}
-#login input:hover{
-  transform: scale(1.09);
+#emoji:hover{
+  transform: scale(1.5);
 }
 
-#login input::placeholder{
-  opacity: 0.6;
-  letter-spacing: 3px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-}
 .swal2-input::placeholder{
   opacity: 0.5;
   letter-spacing: 2px;
@@ -298,3 +301,23 @@ th{
 
 }
 
+@keyframes agrandar{
+  0%{
+    font-size: 3em;
+  }
+  20%{
+    font-size: 3.5em;
+  }
+  40%{
+    font-size: 4em;
+  }
+  60%{
+    font-size: 4.5em;
+  }
+  80%{
+    font-size: 5em;
+  }
+  100%{
+    font-size: 5.5em;
+  }
+}

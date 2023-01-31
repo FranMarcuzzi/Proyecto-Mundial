@@ -425,13 +425,13 @@ function crearEvento(){
     selecciones[7].partidos = ["21 de Noviembre  <span>Igualo 1 a 1</span> VS Estados Unidos","25 de Noviembre <span>Perdio 2 a 0</span> VS Iran","29 de Novimebre <span>Perdio 3 a 0</span> VS a Inglaterra"];
 
     // GRUPO C
-    selecciones[8].partidos = ["22 de Noviembre <span>Perdio 2 a 1</span> VS Arabia Saudita","26 de Noviembre <span>Gano 2 a 0</span> hs VS Mexico","30 de Noviembre <span>Gano 2 a 0</span> VS Polonia"," ","<span>Octavos de final</span>","3 de Diciembre <span>Gano 2 a 1</span> vs Australia"," ","<span>Cuartos de final</span>","9 de Diciembre <span>Gano 2(3) a 2(2)</span> vs Holanda"," ","<span>Semifinal</span>","13 de Diciembre <span>Gano 3 a 0</span> vs Croacia"," ","<span>Final del mundo </span>","18 de Diciembre - 12:00 hs vs Francia"];
+    selecciones[8].partidos = ["22 de Noviembre <span>Perdio 2 a 1</span> VS Arabia Saudita","26 de Noviembre <span>Gano 2 a 0</span> hs VS Mexico","30 de Noviembre <span>Gano 2 a 0</span> VS Polonia"," ","<span>Octavos de final</span>","3 de Diciembre <span>Gano 2 a 1</span> vs Australia"," ","<span>Cuartos de final</span>","9 de Diciembre <span>Gano 2(3) a 2(2)</span> vs Holanda"," ","<span>Semifinal</span>","13 de Diciembre <span>Gano 3 a 0</span> vs Croacia"," ","<span>Final del mundo </span>","Gano 3(4) a 3(2) vs Francia"];
     selecciones[9].partidos = ["22 de Noviembre <span>Gano 2 a 1</span> VS Argentina","26 de Noviembre <span>Perdio 2 a 0</span> hs VS Polonia ","30 de Noviembre <span>Perdio 2 a 1</span> VS a Mexico"];
     selecciones[10].partidos = ["22 de Noviembre <span>Igualo 0 a 0</span> VS Polonia","26 de Noviembre <span>Perdio 2 a 0</span> hs VS Argentina","30 de Noviembre <span>Gano 2 a 1</span> a Arabia Saudita"];
     selecciones[11].partidos = ["22 de Noviembre <span>Igualo 0 a 0</span> VS Mexico","26 de Noviembre <span>Gano 2 a 0</span> VS Arabia Saudita","30 de Noviembre <span>Perdio 2 a 0</span> VS Argentina"," ","<span>Octavos de final</span>","4 de Diciembre <span>Perdio 3 a 1</span> vs Francia"];
 
     // GRUPO D
-    selecciones[12].partidos = ["22 de Noviembre <span>Gano 4 a 1</span> VS Australia","26 de Noviembre <span>Gano 2 a 1</span> VS Dinamarca","30 de Noviembre <span>Perdio 1 a 0</span> VS Tunisia"," ","<span>Octavos de final</span>","4 de Diciembre <span>Gano 3 a 1</span> vs Polonia"," ","<span>Cuartos de final</span>","10 de Diciembre <span>Gano 2 a 1</span> vs Inglaterra"," ","<span>Semifinal</span>","14 de Diciembre <span>Gano 2 a 0</span> vs Marruecos"," ","<span>Final del mundo </span>","18 de Diciembre - 12:00 hs vs Argentina"];
+    selecciones[12].partidos = ["22 de Noviembre <span>Gano 4 a 1</span> VS Australia","26 de Noviembre <span>Gano 2 a 1</span> VS Dinamarca","30 de Noviembre <span>Perdio 1 a 0</span> VS Tunisia"," ","<span>Octavos de final</span>","4 de Diciembre <span>Gano 3 a 1</span> vs Polonia"," ","<span>Cuartos de final</span>","10 de Diciembre <span>Gano 2 a 1</span> vs Inglaterra"," ","<span>Semifinal</span>","14 de Diciembre <span>Gano 2 a 0</span> vs Marruecos"," ","<span>Final del mundo </span>","Perdio 3(2) a 3(4) vs Argentina"];
     selecciones[13].partidos = ["22 de Noviembre -<span>Perdio 4 a 1</span> VS Francia","26 de Noviembre <span>Gano 1 a 0</span> VS Tunisia","30 de Noviembre <span>Gano 1 a 0</span> VS Dinamarca"];
     selecciones[14].partidos = ["22 de Noviembre <span>Igualo 0 a 0</span> VS Tunisia","26 de Noviembre <span>Perdio 2 a 1</span> VS Francia","30 de Noviembre <span>Perdio 1 a 0</span> VS Australia"," ","<span>Octavos de final</span>","3 de Diciembre <span>Perdio 2 a 1</span> vs Argentina"];
     selecciones[15].partidos = ["22 de Noviembre <span>Igualo 0 a 0</span> VS Dinamarca", "26 de Noviembre <span>Perdio 1 a 0</span> VS Australia","30 de Noviembre <span>Gano 1 a 0</span> VS Francia"];
@@ -445,8 +445,8 @@ function crearEvento(){
     // GRUPO F
     selecciones[20].partidos = ["23 de Noviembre <span>Gano 1 a 0</span> hs VS Canada","27 de Noviembre <span>Perdio 2 a 0</span> hs VS Marruecos","1 de Diciembre <span>Igualo 0 a 0</span> VS Crocia"];
     selecciones[21].partidos = ["23 de Noviembre <span>Perdio 1 a 0</span> VS Belgica","27 de Noviembre <span>Perdio 4 a 1</span> VS Croacia","1 de Diciembre <span>Perdio 2 a 1</span> VS Marruecos"];
-    selecciones[22].partidos = ["23 de Noviembre <span>Igualo 0 a 0</span> VS Croacia","27 de Noviembre <span>Gano 2 a 0</span> VS Belgica","1 de Diciembre <span>Gano 2 a 1</span> VS Canada" ," ","<span>Octavos de final</span>","6 de Diciembre <span>Gano 0(3) a 0(0)</span> vs España"," ","<span>Cuartos de final</span>","9 de Diciembre <span>Gano 1 a 0</span> vs Portugal"," ","<span>Semifinal</span>","14 de Diciembre <span>Perdio 2 a 0</span> vs Francia"," ","<span>Tercer puesto</span>","17 de Diciembre - 12:00 hs vs Croacia"];
-    selecciones[23].partidos = ["23 de Noviembre <span>Igualo 0 a 0</span> VS Marruecos","27 de Noviembre <span>Gano 4 a 1</span> VS Canada","1 de Diciembre <span>Igualo 0 a 0</span> VS Belgica" ," ","<span>Octavos de final</span>","5 de Diciembre <span>Gano 1(3) a 1(1)</span> vs Japon"," ","<span>Cuartos de final</span>","9 de Diciembre <span>Gano 1(4) a 1(2)</span> vs Brasil"," ","<span>Semifinal</span>","13 de Diciembre <span>Perdio 3 a 0</span> vs Argentina"," ","<span>Tercer puesto</span>","17 de Diciembre - 12:00 hs vs Marruecos"]
+    selecciones[22].partidos = ["23 de Noviembre <span>Igualo 0 a 0</span> VS Croacia","27 de Noviembre <span>Gano 2 a 0</span> VS Belgica","1 de Diciembre <span>Gano 2 a 1</span> VS Canada" ," ","<span>Octavos de final</span>","6 de Diciembre <span>Gano 0(3) a 0(0)</span> vs España"," ","<span>Cuartos de final</span>","9 de Diciembre <span>Gano 1 a 0</span> vs Portugal"," ","<span>Semifinal</span>","14 de Diciembre <span>Perdio 2 a 0</span> vs Francia"," ","<span>Tercer puesto</span>","Perdio 2 a 1 vs Croacia"];
+    selecciones[23].partidos = ["23 de Noviembre <span>Igualo 0 a 0</span> VS Marruecos","27 de Noviembre <span>Gano 4 a 1</span> VS Canada","1 de Diciembre <span>Igualo 0 a 0</span> VS Belgica" ," ","<span>Octavos de final</span>","5 de Diciembre <span>Gano 1(3) a 1(1)</span> vs Japon"," ","<span>Cuartos de final</span>","9 de Diciembre <span>Gano 1(4) a 1(2)</span> vs Brasil"," ","<span>Semifinal</span>","13 de Diciembre <span>Perdio 3 a 0</span> vs Argentina"," ","<span>Tercer puesto</span>","Gano 3 a 1 vs Marruecos"]
 
     // GRUPO G
     selecciones[24].partidos = ["24 de Noviembre <span>Gano 2 a 0</span> VS Serbia","28 de Noviembre - 13:00 hs VS Suiza","2 de Diciembre <span>Perdio 1 a 0</span> VS Camerun"," ","<span>Octavos de final</span>","5 de Diciembre <span>Gano 4 a 1</span> vs Corea del Sur"," ","<span>Cuartos de final</span>","9 de Diciembre <span>Perdio 1(2) a 1(4)</span> vs Croacia"];
@@ -563,10 +563,57 @@ function favorito(selecciones){
 
     
 }
+
+
 }
+function podio(){
+    document.getElementById("podio").innerHTML="";
+    let borrar = document.getElementById("contenedor");
+    borrar.style.display = "none";
+    document.getElementById("svg").style.display ="none";  
+    let titulo = document.createElement("h3");
+    titulo.innerHTML="Campeón del mundo";
+    document.getElementById("podio").append(titulo);
+    let primerlugar = document.createElement("p");
+    primerlugar.id = "primero";
+    primerlugar.innerHTML="Argentina 🐐";
+    document.getElementById("podio").append(primerlugar);
+    let emoji = document.createElement("input");
+    emoji.id = "emoji";
+    emoji.type = "button";
+    emoji.value='🏆';
+    emoji.addEventListener("click",()=>argentina());
+    document.getElementById("podio").append(emoji);
+    confetti()
+    
+    }
+    function argentina(){
+        const jsConfetti = new JSConfetti();
+        
+        jsConfetti.addConfetti({
+            emojis: ['🇦🇷','🏆','🌎']
+        });
+    }
+    
+
+    function confetti(){
+        const jsConfetti = new JSConfetti();
+        for (let index = 0; index < 10; index++) {
+            jsConfetti.addConfetti({
+                confettiColors : ['#E59422','#ffffff','#F4CF83','F8C160','E30E2C',
+
+                ],
+            });}
+         }
+
+let cup = document.getElementById("cup");
+cup.addEventListener("click",()=>podio());
 
 let informacion = document.getElementById("informacion");
 informacion.addEventListener("click",()=>info());
+
+let emoji = document.getElementById("emoji");
+emoji.addEventListener("click",()=>alert("hola"));
 
 let fav = document.getElementById("star");
 let partidos = crearEvento();
@@ -577,4 +624,3 @@ if(sessionStorage.getItem("equipo")!=null){
     busqueda(selecciones,equipo);
 }
 
-// SE QUE EL TRABAJO NO ESTA TODO LO QUE SE PIDIO PERO YO COMENCE CON ESTRE PROYECTO Y NO TUVE TIEMPO DE EMPEZAR UNO DE CredentialsContainer.
