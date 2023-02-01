@@ -585,7 +585,7 @@ function podio(){
     document.getElementById("podio").append(titulo);
     let primerlugar = document.createElement("p");
     primerlugar.id = "primero";
-    primerlugar.innerHTML="Argentina 🐐";
+    primerlugar.innerHTML="Arg<span class='blanco'>ent</span>ina<br>⭐️⭐️⭐️";
     document.getElementById("podio").append(primerlugar);
     let emoji = document.createElement("input");
     emoji.id = "emoji";
@@ -600,7 +600,7 @@ function podio(){
         const jsConfetti = new JSConfetti();
         
         jsConfetti.addConfetti({
-            emojis: ['🇦🇷','🏆','🌎']
+            emojis: ['🇦🇷','🏆','🌎','⭐️']
         });
     }
     
