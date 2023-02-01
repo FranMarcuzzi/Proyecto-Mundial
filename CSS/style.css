@@ -144,7 +144,15 @@ th{
 }
 
 #boton{
-  margin: 2% 42%;
+  margin: 1% 42%;
+  background: transparent;
+  font-size: 2em;
+  transition: 1s;
+  text-shadow: 5px 5px 20px black;
+}
+#boton:hover{
+  transform: scale(1.5);
+
 }
 
 #faseMuerte{
@@ -259,6 +267,7 @@ th{
 }
 
 #podio h3{
+  margin-bottom: 1%;
   text-align: center;
     font-size: 6em;
     color: #fff;

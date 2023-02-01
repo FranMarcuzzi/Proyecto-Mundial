@@ -478,13 +478,13 @@ function busqueda(selecciones,equipo){
             document.getElementById("svg").style.display ="none";   
             let titulo =document.createElement("h3");
             titulo.innerHTML = seleccion.pais;
-            titulo.style.marginBottom="4%"
+            titulo.style.marginBottom="1%"
             document.getElementById("faseMuerte").append(titulo); 
             let boton = document.createElement("input");
             boton.type = "button";
             boton.id = "boton";
-            boton.value="Volver al menu";
-            document.body.append(boton);
+            boton.value="🏠";
+            document.getElementById("faseMuerte").append(boton);
             let simulado = document.getElementById("boton");
             simulado.addEventListener("click",()=>restaurar());
             encontrado = seleccion;
@@ -537,6 +537,11 @@ function encontrado(selecciones){
 // CREE UN ACCESO A TU EQUIPO FAVORITO, SE QUE NO ES EL USO QUE NOS PIDIERON PERO NO CONSIDERE ESO AL MOMENTO INICIAL DEL PROYECTO
 
 function favorito(selecciones){
+    let rest = document.getElementById("faseMuerte");
+    rest.innerHTML="";
+    let tabla = document.getElementById("tablaGrupo");
+    tabla.innerHTML="";    
+    document.getElementById("podio").innerHTML="";
     if(sessionStorage.getItem("equipo")!=null){
         document.getElementById("star").style.fontWeight="bold";
         let equipo = sessionStorage.getItem("equipo");
@@ -567,6 +572,10 @@ function favorito(selecciones){
 
 }
 function podio(){
+    let rest = document.getElementById("faseMuerte");
+    rest.innerHTML="";
+    let tabla = document.getElementById("tablaGrupo");
+    tabla.innerHTML="";    
     document.getElementById("podio").innerHTML="";
     let borrar = document.getElementById("contenedor");
     borrar.style.display = "none";
@@ -606,14 +615,14 @@ function podio(){
             });}
          }
 
+
 let cup = document.getElementById("cup");
 cup.addEventListener("click",()=>podio());
 
 let informacion = document.getElementById("informacion");
 informacion.addEventListener("click",()=>info());
 
-let emoji = document.getElementById("emoji");
-emoji.addEventListener("click",()=>alert("hola"));
+
 
 let fav = document.getElementById("star");
 let partidos = crearEvento();
@@ -623,4 +632,5 @@ if(sessionStorage.getItem("equipo")!=null){
     let equipo = sessionStorage.getItem("equipo");
     busqueda(selecciones,equipo);
 }
+
 
