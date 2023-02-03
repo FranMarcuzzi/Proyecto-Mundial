@@ -142,15 +142,15 @@ th, td {
 th{
   background-color: #50B8A8;
 }
-
-#boton{
+#boton{margin: 1% 42%;;}
+#botonn{
   margin: 1% 42%;
   background: transparent;
   font-size: 2em;
   transition: 1s;
   text-shadow: 5px 5px 20px black;
 }
-#boton:hover{
+#botonn:hover{
   transform: scale(1.5);
 
 }

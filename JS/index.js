@@ -482,10 +482,10 @@ function busqueda(selecciones,equipo){
             document.getElementById("faseMuerte").append(titulo); 
             let boton = document.createElement("input");
             boton.type = "button";
-            boton.id = "boton";
+            boton.id = "botonn";
             boton.value="🏠";
             document.getElementById("faseMuerte").append(boton);
-            let simulado = document.getElementById("boton");
+            let simulado = document.getElementById("botonn");
             simulado.addEventListener("click",()=>restaurar());
             encontrado = seleccion;
             flag = true;
